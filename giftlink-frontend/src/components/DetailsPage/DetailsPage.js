@@ -13,14 +13,14 @@ function DetailsPage() {
         const authenticationToken = sessionStorage.getItem('auth-token');
         if (!authenticationToken) {
 			// Task 1: Check for authentication and redirect
-            {{insert code here}}
+            //inde{{insert code here}}x.html
         }
 
         // get the gift to be rendered on the details page
         const fetchGift = async () => {
             try {
 				// Task 2: Fetch gift details
-                const response ={{insert code here}}
+                const response =//inde{{insert code here}}x.html
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
